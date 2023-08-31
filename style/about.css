@@ -1,0 +1,17 @@
+.section__about {
+    display: flex;
+    justify-content: center;
+}
+
+.about_text {
+    width: 90%;
+}
+
+.about_photo {
+    width: 20%;
+}
+
+.main-header {
+    width: 600px;
+    font-size: 80px;
+}
