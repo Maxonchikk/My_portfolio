@@ -1,14 +1,21 @@
 .section__about {
     display: flex;
     justify-content: center;
+    height: 80vh;
 }
 
-.about_text {
-    width: 90%;
+.about__text {
+    width: 60vw;
 }
 
-.about_photo {
-    width: 20%;
+.about__photo {
+    width: 40vw;
+    height: 70vh;
+}
+
+.about__photo_img {
+    width: 100%;
+    height: 100%;
 }
 
 .main-header {
