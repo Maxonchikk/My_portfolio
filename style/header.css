@@ -1,22 +1,25 @@
 .header {
-    height: 15vh;
-    margin-bottom: 15vh;
+    height: 60px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
+    /* background-color: rgb(43, 70, 192); */
 }
 
 .logo__link {
     display: flex;
     align-items: center;
-    border: 4px solid #8B7AA8;
     border-radius: 10px;
     padding: 5px;
+    color: #8B7AA8;
 }
 
 .main-letter {
     font-size: 46px;
+    color: #8B7AA8;
+
 }
 
 .nav__menu {

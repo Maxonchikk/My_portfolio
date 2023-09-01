@@ -1,24 +1,32 @@
 .section__about {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: calc(100vh - 110px);
+    /* background-color: rgb(21, 116, 199); */
+    padding: 50px 0 50px 0;
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
     width: 60vw;
+    justify-content: center;
 }
 
 .about__photo {
-    width: 40vw;
-    height: 70vh;
+    /* width: 30vw;
+    height: 700px; */
+    display: flex;
 }
 
-.about__photo_img {
-    width: 100%;
+.about__photo__img {
+    width: auto;
     height: 100%;
 }
 
 .main-header {
     width: 600px;
-    font-size: 80px;
+    font-size: 100px;
+    color: #8B7AA8;
+    font-weight: 900;
 }

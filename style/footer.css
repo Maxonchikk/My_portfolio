@@ -1,0 +1,10 @@
+.footer__contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer__icon {
+    width: 50px;
+    height: 50px;
+}

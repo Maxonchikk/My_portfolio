@@ -36,10 +36,19 @@ h1 {
     padding: 0;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #8B7AA8;
+}
+
 .body__wrapper {
     width: 70%;
-    /* height: 100%; */
     margin: 0 auto;
-    padding: 0 20px 0 20px;
-    
+    padding: 20px;
+}
+
+.hide {
+    display: none;
 }

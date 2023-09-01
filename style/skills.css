@@ -1,0 +1,29 @@
+.section__skills {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+
+.skills__card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.skills__card__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: 300px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.card__icon {
+    height: 50%;
+    color: #222629;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #979292;
+}
+
