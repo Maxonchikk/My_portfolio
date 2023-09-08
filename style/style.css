@@ -67,12 +67,16 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+
     /* h1 {
         font-size: 80px;
     } */
 }
 
 @media screen and (max-width: 320px) {
+    .body__wrapper {
+        width: 100%;
+    }
     /* h1 {
         font-size: 25px;
     }

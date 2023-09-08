@@ -6,12 +6,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function showBurger() {
         burger.classList.toggle ('menu__item_active');
-        if (menu.classList.contains('hide')) {
-            menu.classList.remove('hide');
-            menu.classList.add('show');
+        menu.classList.toggle('nav__menu_active');
+        if (!menu.classList.contains('nav__menu_active')) {
+            document.body.style.overflow = 'hidden';
         }
-        menu.classList.add('hide');
-        menu.classList.remove('show');
+        document.body.style.overflow = '';
+        
     }
 
     burger.addEventListener('click', () => {
