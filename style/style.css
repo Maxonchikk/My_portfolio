@@ -32,7 +32,7 @@ a {
 }
 
 h1 {
-    font-size: calc(25px + 55 * (100vw - 320px) / 960);
+    font-size: 80px;
     color: #8B7AA8;
     font-weight: 700;
     margin: 0;
@@ -40,9 +40,9 @@ h1 {
 }
 
 h2 {
+    font-size: 60px;
     display: flex;
     justify-content: center;
-    font-size: calc(25px + 55 * (100vw - 320px) / 960);
     color: #8B7AA8;
     margin: 0 0 40px 0;
     padding: 0;
@@ -53,9 +53,11 @@ h2 {
 }
 
 .body__wrapper {
-    width: 70%;
+    width: 80%;
+    position: relative;
     margin: 0 auto;
     padding: 20px;
+    overflow: hidden;
 }
 
 .hide {
@@ -66,11 +68,15 @@ h2 {
     display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
-    /* h1 {
-        font-size: 80px;
-    } */
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 320px) {
