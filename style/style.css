@@ -32,7 +32,7 @@ a {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: calc(60px + (20 + 20 * 0.7) * ((100vw - 320px) / 1280));
     color: #8B7AA8;
     font-weight: 700;
     margin: 0;
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: calc(40px + (20 + 20 * 0.7) * ((100vw - 320px) / 1280));;
     display: flex;
     justify-content: center;
     color: #8B7AA8;
@@ -68,26 +68,8 @@ h2 {
     display: block;
 }
 
-@media screen and (max-width: 767px) {
-
-    h1 {
-        font-size: 45px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 395px) {
     .body__wrapper {
         width: 100%;
     }
-    /* h1 {
-        font-size: 25px;
-    }
-
-    h2 {
-        font-size: 25px;
-    } */
 }

@@ -98,7 +98,7 @@
 
   .burger__menu_active {
     transform: rotate(90deg);
-    transition: 0.2s all;
+    transition: 0.3s all;
   }
 
   .nav__menu {
