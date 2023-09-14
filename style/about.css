@@ -10,7 +10,11 @@
     display: flex;
     flex-direction: column;
     /* width: 60vw; */
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.about__header {
+    margin-bottom: 60px;
 }
 
 .about__description {
@@ -19,7 +23,7 @@
 }
 
 .about__photo {
-    width: 20vw;
+    width: 30vw;
     height: auto;
     display: flex;
 }
