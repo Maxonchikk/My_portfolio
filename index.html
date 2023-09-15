@@ -10,12 +10,16 @@
   <link rel="stylesheet" href="./style/education.css">
   <link rel="stylesheet" href="./style/skills.css">
   <link rel="stylesheet" href="./style/footer.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
   <title>Maxim Melnichenko</title>
 </head>
 
 <body>
-  <div class="body__wrapper">
-    <header class="header">
+
+  <header class="header">
+    <div class="wrapper wrapper__header">
       <div class="logo">
         <a href="#" class="logo__link">
           <div class="main-letter">
@@ -25,7 +29,6 @@
             <p class="logo__p">axim</p>
             <p class="logo__p">elnichenko</p>
           </div>
-
         </a>
       </div>
       <div class="burger__menu">
@@ -37,13 +40,19 @@
         <p class="nav__item"><a href="#" class="nav__link">Projects</a></p>
         <p class="nav__item"><a href="#" class="nav__link">Contacts</a></p>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="main">
-      <section class="section section__about">
+
+  <main class="main">
+
+    <section class="section section__about">
+      <div class="wrapper wrapper__about">
         <div class="about__text">
           <h1 class="about__header">Front-end developer</h1>
-          <div class="about__description">Hi! I am a beginner frontend developer. Here you can meet me and get to know me better. I will leave all the information for you here. If you have any suggestions for cooperation with me, you will see contacts below.
+          <div class="about__description">Hi! I am a beginner frontend developer. Here you can meet me and get to know
+            me better. I will leave all the information for you here. If you have any suggestions for cooperation with
+            me, you will see contacts below.
           </div>
         </div>
         <div class="about__photo">
@@ -53,53 +62,61 @@
           <img class="about__photo__img hide" src="./img/my_photo_4.jpg" alt="my photo">
           <img class="about__photo__img hide" src="./img/my_photo_5.jpg" alt="my photo">
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section section__education">
+    <section class="section section__education">
+      <div class="wrapper wrapper__education">
         <h2 class="education__header">My education</h2>
         <div class="education__cards">
+          <div class="arrow arrow__left">
+            <img src="./img/icon/arrow_left.png" alt="arrow left">
+          </div>
           <div class="card__item">
             <div class="card__icon">
-              <img src="#" alt="university">
+              <img src="./img/ggtu.jpg" alt="university">
             </div>
             <div class="card__description">
               <h3 class="card__header">Gomel State Technical University</h3>
               <p class="card__year">September 2014 - June 2019</p>
             </div>
           </div>
-            <div class="card__item">
-              <div class="card__icon">
-                <img src="#" alt="skillbox">
-              </div>
-              <div class="card__description">
-                <h3 class="card__header">SkillBox course</h3>
-                <p class="card__year">September 2014 - June 2019</p>
-              </div>
+          <div class="card__item">
+            <div class="card__icon">
+              <img src="./img/skillbox.jpeg" alt="skillbox">
             </div>
-              <div class="card__item">
-                <div class="card__icon">
-                  <img src="#" alt="skillbox">
-                </div>
-                <div class="card__description">
-                  <h3 class="card__header">Udemy</h3>
-                  <p class="card__year">September 2014 - June 2019</p>
-                </div>
-              </div>
-                <div class="card__item">
-                  <div class="card__icon">
-                    <img src="#" alt="university">
-                  </div>
-                  <div class="card__description">
-                    <h3 class="card__header">Rolling Scope School</h3>
-                    <p class="card__year">September 2014 - June 2019</p>
-                  </div>
-                </div>
+            <div class="card__description">
+              <h3 class="card__header">SkillBox course</h3>
+              <p class="card__year">September 2014 - June 2019</p>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__icon">
+              <img src="./img/udemy.png" alt="udemy">
+            </div>
+            <div class="card__description">
+              <h3 class="card__header">Udemy</h3>
+              <p class="card__year">September 2014 - June 2019</p>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__icon">
+              <img src="./img/rsschool.png" alt="rsschool">
+            </div>
+            <div class="card__description">
+              <h3 class="card__header">Rolling Scope School</h3>
+              <p class="card__year">September 2014 - June 2019</p>
+            </div>
+          </div>
+          <div class="arrow arrow__rigth">
+            <img src="./img/icon/arrow_right.png" alt="arrow right">
           </div>
         </div>
+      </div>
+    </section>
 
-      </section>
-
-      <section class="section section__skills" id="skills">
+    <section class="section section__skills" id="skills">
+      <div class="wrapper wrapper__skills">
         <h2 class="skills__header">My skills are</h2>
         <div class="skills__card">
           <div class="card__item">
@@ -142,15 +159,18 @@
               quibusdam? Quas cumque aperiam distinctio sed beatae?</div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section section__projects">
+    <section class="section section__projects">
+      <div class="wrapper wrapper__projects">
         <h2 class="projects__header">My projects</h2>
+      </div>
+    </section>
+  </main>
 
-      </section>
-    </main>
-
-    <footer class="footer">
+  <footer class="footer">
+    <div class="wrapper wrapper__footer">
       <h2 class="footer__header">Contacts me</h2>
       <div class="footer__contacts">
         <p class="footer__tel">
@@ -179,7 +199,9 @@
       <div class="rigths">
         Made with &#x2764 by Maxim Melnichenko. All rigths reserved. 2023
       </div>
-    </footer>
+    </div>
+  </footer>
+  </div>
   </div>
   <script src="script.js"></script>
 </body>

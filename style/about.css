@@ -23,7 +23,7 @@
 }
 
 .about__photo {
-    width: 30vw;
+    max-width: 30vw;
     height: auto;
     display: flex;
 }

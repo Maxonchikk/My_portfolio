@@ -1,8 +1,14 @@
+.wrapper__footer {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-between;
+    justify-content: stretch;
     height: 300px;
 }
 
@@ -10,16 +16,25 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__icon {
     width: 50px;
     height: 50px;
+    transition: 0.3s all;
+}
+
+.footer__icon:hover {
+    width: 70px;
+    height: 70px;
+    transition: 0.3s all;
 }
 
 .rigths {
     display: flex;
     justify-content: center;
+    bottom: 0;
 }
 
 @media screen and (max-width: 670px) {

@@ -1,5 +1,9 @@
 .section__skills {
     display: flex;
+    
+}
+
+.wrapper__skills {
     flex-direction: column;
     align-content: center;
 }

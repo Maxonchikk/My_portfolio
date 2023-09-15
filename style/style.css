@@ -14,7 +14,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: #979292;
-    background-color: #222629;
+    background: repeating-radial-gradient(#1d0b0b,#221C44);
+    /* filter:blur(10px); */
     scroll-behavior: smooth;
 }
 
@@ -52,7 +53,8 @@ h2 {
     margin-bottom: 50px;
 }
 
-.body__wrapper {
+.wrapper {
+    display: flex;
     width: 80%;
     position: relative;
     margin: 0 auto;
