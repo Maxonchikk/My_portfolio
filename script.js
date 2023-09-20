@@ -1,7 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
     // ==================Start script=========================
     const burger = document.querySelector('.burger__menu'),
-        menu = document.querySelector('.nav__menu');
+        menu = document.querySelector('.nav__menu'),
+        photo = document.querySelectorAll('.about__photo__img');
 
 
     function showBurger() {
@@ -17,5 +18,17 @@ window.addEventListener('DOMContentLoaded', () => {
     burger.addEventListener('click', () => {
         showBurger();
     })
+
+    function changePhoto() {
+        for (let i = 0; i < photo.length; i++) {
+            if (!photo[i].classList.contains('hide')) {
+                photo[i].classList.add('hide');
+                return photo[i + 1].classList.remove('hide');
+            }
+        }
+    }
+
+    // setInterval(changePhoto, 3000)
+
     // =======================Finish script========================
 });
