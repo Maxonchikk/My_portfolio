@@ -2,7 +2,9 @@ window.addEventListener('DOMContentLoaded', () => {
     // ==================Start script=========================
     const burger = document.querySelector('.burger__menu'),
         menu = document.querySelector('.nav__menu'),
-        photo = document.querySelectorAll('.about__photo__img');
+        photo = document.querySelectorAll('.about__photo__img')
+        leftArrow = document.querySelector('.arrow__left'),
+        rigthArrow = document.querySelector('.arrow__right');
 
 
     function showBurger() {
@@ -30,5 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // setInterval(changePhoto, 3000)
 
+
+    
     // =======================Finish script========================
 });
